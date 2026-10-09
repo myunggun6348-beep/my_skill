@@ -1,0 +1,4 @@
+interface:
+  display_name: "수학 PDF 원형 보존 HWPX 변환"
+  short_description: "글꼴·간격을 맞추고 제목·표는 편집 구조로, 그래프는 그림으로 변환"
+  default_prompt: "Use $convert-math-pdf-to-hwpx to match this PDF's typography and spacing, rebuild editable headings and native tables, preserve complete graphs as independent pictures, convert mathematics outside graphs to native equations, and validate the final document."

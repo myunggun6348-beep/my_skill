@@ -1,0 +1,37 @@
+pipeline:
+  mode: fidelity
+  work_dir: work/math-pdf-to-hwpx
+  keep_intermediate: true
+
+pdf:
+  render_dpi: 300
+  text_coverage_threshold: 0.35
+  vector_figure_min_area_pt2: 900
+  column_gap_pt: 24
+
+layout:
+  overrides: ""
+  font_map: {}
+
+math:
+  provider: text-layer
+  external_command: ""
+  accept_confidence: 0.90
+  require_all_equations: true
+
+hwp:
+  visible: false
+  timeout_seconds: 120
+  base_font: 함초롬바탕
+  base_font_size_pt: 10
+  page_break_per_pdf_page: true
+  simple_tables_as_tabs: true
+
+validation:
+  require_hwpx_zip: true
+  require_pdf_export: true
+  minimum_text_coverage: 0.85
+  maximum_unreviewed_low_confidence: 0
+  comparison_dpi: 144
+  minimum_ink_overlap: 0.80
+  paper_tolerance_pt: 1.0
