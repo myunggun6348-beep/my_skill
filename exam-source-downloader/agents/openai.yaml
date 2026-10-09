@@ -1,0 +1,4 @@
+interface:
+  display_name: "Exam Source Downloader"
+  short_description: "Download Korean exam PDFs with manifests."
+  default_prompt: "Use $exam-source-downloader to download Korean CSAT, mock exam, or National Union exam source PDFs and verify the manifest."
