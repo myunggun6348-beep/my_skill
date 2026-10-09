@@ -1,0 +1,4 @@
+interface:
+  display_name: "HWPX Automation"
+  short_description: "Adapt new Korean HWP/HWPX forms with COM and XML."
+  default_prompt: "Use the bundled HWP/HWPX workflow to analyze each new template, adapt anchors and tables, fill forms, and generate real tables without breaking layout."
