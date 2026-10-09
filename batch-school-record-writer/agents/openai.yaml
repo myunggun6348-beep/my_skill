@@ -1,0 +1,4 @@
+interface:
+  display_name: "학생별 기록 일괄 작성·검수"
+  short_description: "학생별 기록 초안과 중복·분량·금지 표현을 일괄 점검"
+  default_prompt: "Use $batch-school-record-writer to turn the attached student activity table into evidence-based review drafts and a prioritized audit report."

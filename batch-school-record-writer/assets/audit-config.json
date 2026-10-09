@@ -1,0 +1,51 @@
+{
+  "policy_year": 2026,
+  "byte_encoding": "utf-8",
+  "default_area": "교과 세부능력 및 특기사항",
+  "near_limit_ratio": 0.95,
+  "limits": {
+    "교과 세부능력 및 특기사항": {
+      "max_characters": 500,
+      "max_bytes_utf8": 1500,
+      "target_characters": 450
+    },
+    "자율·자치활동": {
+      "max_characters": 500,
+      "max_bytes_utf8": 1500,
+      "target_characters": 450
+    },
+    "자율활동": {
+      "max_characters": 500,
+      "max_bytes_utf8": 1500,
+      "target_characters": 450
+    },
+    "동아리활동": {
+      "max_characters": 500,
+      "max_bytes_utf8": 1500,
+      "target_characters": 450
+    },
+    "행동특성 및 종합의견": {
+      "max_characters": 300,
+      "max_bytes_utf8": 900,
+      "target_characters": 270
+    }
+  },
+  "area_aliases": {
+    "세특": "교과 세부능력 및 특기사항",
+    "교과세특": "교과 세부능력 및 특기사항",
+    "자율자치": "자율·자치활동",
+    "자율": "자율활동",
+    "동아리": "동아리활동",
+    "행특": "행동특성 및 종합의견"
+  },
+  "similarity": {
+    "medium_threshold": 0.72,
+    "high_threshold": 0.86,
+    "max_reported_pairs": 100,
+    "minimum_text_characters": 20
+  },
+  "ignore_phrases": [
+    "검토용 초안",
+    "교사 확인"
+  ]
+}
